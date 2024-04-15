@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"/>
+    <link href="C:\Users\admin\Downloads\Nrithya\Nrithya\img\logo1.png" rel="icon" />
+    <title>Nrithya Sangama</title>
+    <meta name="description"  content="Your ThemeForest item Name and description"/>
+    <meta name="author" content="nrithya.net" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="C:\Users\admin\Downloads\Nrithya\Nrithya\css\contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <div class="header" id="header">
+
+        <img class="logo" src="C:\Users\admin\Downloads\Nrithya\Nrithya\img\logo1.png" />
+        <p class="ph">Nrithy Sangama</p>
+      <nav>
+        <ul>
+          <li><a href="C:\Users\admin\Downloads\Nrithya\Nrithya\home.html">Home</a></li>
+          <li><a href="C:\Users\admin\Downloads\Nrithya\Nrithya\about.html">About US</a></li>
+          <li><a href="C:\Users\admin\Downloads\Nrithya\Nrithya\profile.html">Profile</a></li>
+          <li><a href="C:\Users\admin\Downloads\Nrithya\Nrithya\ourspecality.html">Our Specality</a></li>
+          <li><a href="C:\Users\admin\Downloads\Nrithya\Nrithya\branches.html">Branches</a></li>
+          <li><a href="C:\Users\admin\Downloads\Nrithya\Nrithya\gallary.html">Gallary</a></li>
+          <li><a href="C:\Users\admin\Downloads\Nrithya\Nrithya\contact.html">Contact Us</a></li>
+
+        </ul>
+      </nav>
+    </div>
+
+    <div id="container">
+      <img style="width: 100%; height: 500px" src="assets/images/banner.jpg" />
+    </div>
+   <script src="js/scroll.js"></script>
+   <h2 class="con">Contact Us</h2>
+   <p class=" conn"><img src="C:\Users\admin\Downloads\Nrithya\Nrithya\img\line.png"></p>
+    <h1 style="margin-top: -70px;text-align: center;color: #1d1764;">Let's get the Conversation Started</h1>
+    <h3 style="margin-top: 10px;text-align: center;color: #1d1764;">Tell us how we can help and we’ll get in touch shortly</h3>
+    <div class="cont">
+      <form onsubmit="sendEmail(); reset(); return false">
+          <h3>GET IN TOUCH</h3>       
+          <input type="text" id="name" placeholder="First Name" required>
+          <input type="text" id="name" placeholder="Last Name" required>
+          <input type="email" id="email" placeholder="Email Id" required>
+          <input type="text" id="phone" placeholder="Phone Number" required>
+          <textarea id="message" row="4" placeholder="How can we help you?" required></textarea>
+          <button type="submit">Submit</button>
+      </form>
+  </div>
+  <script src="https://smtpjs.com/v3/smtp.js"> </script>
+  <script>
+      function sendEmail() {
+          Email.send({
+              Host: "smtp.elasticemail.com",
+              Username: "shravyar217@gmail.com",
+              Password: "mallikaips",
+              To: 'shravyar218@gmail.com',
+              From: document.getElementById("email").value,
+              Subject: "New Contact form Enquiry",
+              Body: "And this is the body"
+          }).then(
+              message => alert(Message)
+          );
+      }
+  </script>
+<p class="footer">
+    "Bharatanatyam is not just about dance; it's about expressing the divine within."<br><br>
+    FOLLOW US <br> 
+    <a href="https://www.facebook.com/nrithya.sangama.5?mibextid=rS40aB7S9Ucbxw6v" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-facebook-square"></i>
+  </a>&nbsp;
+  <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-twitter-square"></i>
+</a>&nbsp;
+
+<a href="https://www.instagram.com/nrithyasangama2010?igsh=MWo0M3hwM3l0anB4Mw==" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-instagram-square"></i>
+</a>&nbsp;
+
+<a href="https://www.linkedin.com/in/yourprofilename" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-linkedin"></i>
+</a>&nbsp;
+
+<a href="https://www.youtube.com/channel/yourchannelid" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-youtube-square"></i>
+</a>
+    </p>
+    <p class="p">Copyright ©2024 <a style="color: blue; text-decoration: none;" href="https://www.instagram.com/_shravyaaa._/" ><b>SR App Developers.</b></a> Rights Reserved.<br>
+
+      
+    Design & Develop by <a style="color: blue; text-decoration: none;" href="https://www.instagram.com/_shravyaaa._/" ><b>SR.</b></a></p>
+ 
+  </body>
+</head>
+</html>
+ 
